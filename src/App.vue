@@ -45,6 +45,8 @@ export default {
 <style>
   .items {
     margin-left: 00pt;
+    display: flex;
+    justify-content: center;
   }
 
   .item {
