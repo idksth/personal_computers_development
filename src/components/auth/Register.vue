@@ -32,7 +32,7 @@
     </div>
   </template>
   
-  <!--<style>
+<style>
   .wrapper {
     position: relative;
   }
@@ -150,5 +150,5 @@
   #signin:focus {
     outline: none;
   }
-  </style>-->
+  </style>
   

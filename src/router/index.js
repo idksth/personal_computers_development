@@ -1,8 +1,8 @@
 import { createWebHistory, createRouter } from "vue-router";
 // импорт компонентов
-import Register from "./components/auth/Register.vue";
-import Login from "./components/auth/Login.vue";
-import MainContent from "./components/MainContent.vue";
+import Register from "../components/auth/Register.vue";
+import Login from "../components/auth/Login.vue";
+import MainContent from "../components/MainContent.vue";
 
 // определяем маршруты
 const router = createRouter({

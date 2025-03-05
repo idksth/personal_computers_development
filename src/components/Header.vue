@@ -4,6 +4,7 @@
     <nav class="nav">
       <div class="nav-actions">
 
+        <router-link class="item" to="/"> </router-link>
         <router-link class="item" to="/register">Регистрация</router-link>
         <router-link class="item" to="/login">Авторизация</router-link>
 
@@ -22,10 +23,19 @@
   <script>
   export default {
     name: 'HeaderComponent',
+    methods: {
+      toRegister() {
+        this.$router.push("/register")
+      }
+    }
   };
   </script>
   
   <style>
+
+  .item {
+    color: aliceblue;
+  }
   
   .header {
     width: 100%; 
